@@ -1,0 +1,15 @@
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "email": "pepito3@gmail.com",
+  "password": "AsdD@123",
+  "rol": "Full Stack Developer",
+  "lenguage": "Python"
+}
+
+####
+
+GET http://localhost:3000/usuarios
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJwZXBpdG8zQGdtYWlsLmNvbSIsImlhdCI6MTcwODQ4NTkzOCwiZXhwIjoxNzA4NDg5NTM4fQ.rvALpuHO365SjzMidBniP8k761UWMliH1gNNfKkx_lw
